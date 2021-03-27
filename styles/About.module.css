@@ -1,0 +1,24 @@
+.aboutSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.container p {
+  margin: 3rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  line-height: 2rem;
+  text-transform: capitalize;
+  color: var(--clr-primary-2);
+  font-weight: bold;
+}
+.aboutSection img {
+  margin-left: 3rem;
+}
+.aboutTitle {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  padding-top: 4rem;
+  font-style: italic;
+  color: var(--clr-black);
+}

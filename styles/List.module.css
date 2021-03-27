@@ -1,0 +1,39 @@
+.container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  width: 25%;
+  height: 25%;
+  margin: 2rem;
+
+  line-height: 1.5rem;
+  color: var(--clr-gold);
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  border: 2px solid black;
+}
+
+/*float layout*/
+.float {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.float:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.floatItem {
+  float: left;
+}
+.text {
+  font-size: small;
+}
+.title {
+  margin-top: 0.2rem;
+}

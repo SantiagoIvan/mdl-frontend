@@ -1,0 +1,24 @@
+.footer {
+  background-color: var(--clr-white);
+  height: 10vh;
+  color: var(--clr-primary-2);
+  font-size: large;
+  font-weight: 500;
+  box-shadow: var(--light-shadow);
+  position:absolute;
+  left:0;
+  bottom:0;
+  width: 100%;
+}
+.footerContainer {
+  align-items: center;
+  margin: auto 6rem;
+}
+.footerContainer ul {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.footerContainer ul li {
+  margin: auto 2rem;
+}

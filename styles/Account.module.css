@@ -1,0 +1,16 @@
+.container {
+    align-items: center;
+}
+.accountInfo{
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--clr-grey-1);
+}
+.mainTitle{
+    font-size: 3rem;
+}
+.attr{
+    font-weight: bold;
+    color: var(--clr-grey-1);
+    font-size: large;
+}
